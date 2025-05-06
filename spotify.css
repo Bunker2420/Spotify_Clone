@@ -1,0 +1,273 @@
+*
+{
+    background-color: black;
+    color: white;
+}
+.main 
+{
+    height: 100vh;
+    display: flex;
+    font-family: "Montserrat", serif;
+    padding: 1px;
+}
+.bodyy
+{
+    height: 87vh;
+    flex: 1;
+    overflow: auto;
+    background-color: #121212;
+    border-radius: 15px;
+}
+.musicplayer
+{
+    position: fixed;
+    bottom: 0;
+    background-color: #121212;
+    width: 100%;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 2.5fr 4fr 3.5fr;
+}
+.sidebar
+{
+    background-color: black;
+    width: 250px;
+    height: 87vh;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+.fa-house
+{
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    overflow: hidden;
+}
+.ppp
+{
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 15px;
+    font-style: normal;
+    background-color: #121212;
+    margin-bottom: 12px;
+}
+.Firstdiv
+{
+    width: 100%;
+    height: 15vh;
+    border-radius: 15px;
+    background-color: #121212;
+}
+.First-sub-div
+{
+    width: 100%;
+    height: 7vh;
+    background-color: #121212;
+    border-radius: 15px;
+    opacity: 1;
+    cursor: pointer;
+}
+.First-sub-div2
+{
+    width: 100%;
+    height: 7vh;
+    background-color: #121212;
+    border-radius: 15px;
+    opacity: 0.7;
+}
+.First-sub-div2:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+.fa-house
+{
+    margin-left: 8px;
+    background-color: #121212;
+    font-size: 15px;
+}
+.fa-magnifying-glass 
+{
+    font-size: 15px;
+    margin-left: 10px;
+    background-color: #121212;
+    display: inline-block;
+}
+.search
+{
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 12px;
+    background-color: #121212;
+}
+.Seconddiv
+{
+    margin-top: 15px;
+    height: 68.5vh;
+    background-color: #121212;
+    border-radius: 15px;
+}
+.pp 
+{
+    display: inline-block;
+    font-size: 15px;
+    background-color: black;
+}
+.fa-plus
+{
+    font-size: 15px;
+    background-color: black;
+}
+.image
+{
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+.fa-arrow-right
+{
+    background-color: black;
+}
+.sub-div
+{
+    width: 93%;
+    height: 18vh;
+    background-color: #121212;
+    border-radius: 15px;
+    border: 0.5px solid white;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+.boxp1
+{
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #121212;
+    border-radius: 15px;
+    height: 25px;
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.boxp2
+{
+    font-size: 11px;
+    background-color: #121212;
+    width: 90%;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.butp1
+{
+    width: 90%;
+    height: 30px;
+    background-color: #121212;
+    margin-top: 8px;
+}
+.but1
+{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 13px;
+    border-radius: 18px;
+    opacity: 0.7;
+}
+.but1:hover
+{
+    opacity: 1;
+    cursor: pointer;;
+}
+.sub-div2
+{
+    margin-top: 10px;
+    height: 25vh;
+    background-color: #121212;
+    border-radius: 15px;
+    border: 0.5px solid white;
+    padding: 8px;
+}
+.boxpp1
+{
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #121212;
+    border-radius: 15px;
+    height: 25px;
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 10px   
+}
+.boxpp2
+{
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #121212;
+    border-radius: 15px;
+    height: 25px;
+    width: 90%;
+    margin-left: 15px;
+    margin-top: -3px;
+}
+.boxpp3
+{
+    font-size: 11px;
+    background-color: #121212;
+    width: 90%;
+    height: 20px;
+    margin-left: 15px;
+}
+.p3
+{
+    margin-top: -12px;
+    background-color: #121212;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.p4
+{
+    margin-top: -8px;
+}
+.options
+{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
+    width: 100%;
+    height: 30px;
+}
+.aa
+{
+  margin-left: 5px;  
+}
+.plus 
+{
+    opacity: 0.7;
+}
+.plus:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+.arrow 
+{
+    opacity: 0.7;
+}
+.arrow:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
